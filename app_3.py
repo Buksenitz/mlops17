@@ -12,7 +12,7 @@ from sqlalchemy.orm import sessionmaker, Session
 
 
 
-# Configurar base de datos
+# Configurar base de datos 
 SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:nwcwAEzlIQQtmqsMtDwVfsbjEiZfhIqm@altaria.proxy.rlwy.net:10310/railway"
 # SQLALCHEMY_DATABASE_URL = os.environ["SQLALCHEMY_DATABASE_URL"]
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
